@@ -11,7 +11,7 @@ function clickMenu () {
   
   
   if (state == 1) {
-    burgerMenu.src = "https://raw.githubusercontent.com/emdiel/sixteen/main/active-menu.svg";
+    burgerMenu.src = "https://raw.githubusercontent.com/emdiel/sixteen/main/active-menu.png";
     logo.style.display = "none";
     navigation.style.display = "flex"
     nav1.style.padding = "1rem 0rem 0rem 1rem";
@@ -23,7 +23,7 @@ function clickMenu () {
     nav3.style.fontSize = "16px";
     state = 0;
   } else {
-    burgerMenu.src = "https://raw.githubusercontent.com/emdiel/sixteen/main/menu.svg";
+    burgerMenu.src = "https://raw.githubusercontent.com/emdiel/sixteen/main/menu.png";
     logo.style.display = "";
     navigation.style.display = "";
     nav1.style.padding = "";
