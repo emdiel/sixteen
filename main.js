@@ -17,6 +17,7 @@ function clickMenu () {
     nav1.style.padding = "1rem 0rem 0rem 1rem";
     nav2.style.padding = "1rem 0rem";
     nav3.style.padding = "1rem 0rem";
+    
     nav1.style.fontSize = "16px";
     nav2.style.fontSize = "16px";
     nav3.style.fontSize = "16px";
