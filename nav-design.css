@@ -26,6 +26,7 @@ nav {
 
 .menu {
   display: flex;
+  filter: invert(100℅)
 }
 
 .logo {
