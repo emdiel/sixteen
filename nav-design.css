@@ -20,14 +20,13 @@ a {
 nav {
   display: flex;
   align-items: center;
-  padding: 1.16rem 2rem;
+  padding: 1.16rem 1.30rem;
   font-family: 'Lexend Deca', sans-serif;
 }
 
 .menu {
   display: flex;
 }
-
 
 .logo {
   margin-left: 16px;
@@ -38,6 +37,10 @@ nav {
   list-style: none;
   display: none;
   gap: 2rem;
+}
+
+.nav {
+  font-size: 20px;
 }
 
 .button {
