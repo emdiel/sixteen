@@ -1,0 +1,55 @@
+/*Imports*/
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;900&display=swap');
+
+main {
+  width: 100%;
+  text-align: center;
+}
+
+.wc-image {
+  width: 200px;
+  height: 200px;
+  padding: 5rem 0.75rem 0rem 0.75rem;
+}
+
+.hello {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 30px;
+  color: #D1D7E0;
+  padding: 2rem 1.16rem 1rem 1.16rem;
+}
+
+.message-one {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 16px;
+  color: #AAAEB6;
+  line-height: normal;
+  padding: 0rem 1.16rem 1rem 1.16rem;
+
+}
+
+@media only screen and (min-width: 768px) {
+  
+  main {
+    align-items: center;
+  }
+  
+  .wc-image {
+    float: left;
+    padding: 5rem 2rem 0rem 5rem;
+  }
+  
+  .hello {
+    padding: 7rem 0rem 1rem 2rem;
+  }
+
+.message-one {
+    line-height: 28px;
+    padding: 0rem 3.65rem 1rem 2rem;
+  }
+  
+  main {
+    text-align: left;
+  }
+  
+}
