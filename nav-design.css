@@ -62,7 +62,7 @@ nav {
   background-color: #80669d;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px)and (max-width: 1023px) {
   
   nav {
     padding: 2rem 3rem;
