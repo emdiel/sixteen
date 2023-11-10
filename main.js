@@ -7,7 +7,7 @@ const nav3 = document.getElementById('nav3');
 
 let state = 0;
 
-function clickMenu () {
+const clickMenu = () => {
   
   if (state == 1) {
     
@@ -35,4 +35,8 @@ function clickMenu () {
     
   }
   
+}
+
+const contactBtn = () => {
+  alert ("Contact me on messenger:)");
 }
