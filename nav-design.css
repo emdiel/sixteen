@@ -26,6 +26,7 @@ nav {
 
 .menu {
   display: flex;
+  cursor: pointer;
 }
 
 .logo {
@@ -87,5 +88,31 @@ nav {
     font-size: 16px;
   }
   
+}
+
+@media only screen and (min-width: 1024px) {
+
+   nav {
+    padding: 2rem 3rem;
+    justify-content: space-between;
+  }
+  
+  .navigations {
+    display: flex;
+  }
+  
+  .menu {
+    display: none;
+  }
+  
+  .logo {
+    font-size: 1.30rem;
+    margin-left: 0;
+  }
+  
+  .button {
+    margin-left: 0;
+    font-size: 16px;
+  }
   
 }
