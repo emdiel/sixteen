@@ -60,15 +60,15 @@ main {
   }
   
   .wc-image {
-    width: 210px;
-    height: 210px;
+    width: 205px;
+    height: 205px;
     float: left;
     padding: 5rem 2rem 0rem 7rem;
   }
   
   .hello {
     font-size: 32px;
-    padding: 8rem 0rem 1rem 2rem;
+    padding: 7rem 0rem 1rem 2rem;
   }
 
 .message-one {
