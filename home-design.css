@@ -27,7 +27,7 @@ main {
   padding: 0rem 1.16rem 1rem 1.16rem;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px)and (max-width: 1023px) {
   
   main {
     align-items: center;
@@ -45,6 +45,36 @@ main {
 .message-one {
     line-height: 28px;
     padding: 0rem 3.65rem 1rem 2rem;
+  }
+  
+  main {
+    text-align: left;
+  }
+  
+}
+
+@media only screen and (min-width: 1024px) {
+  
+  main {
+    align-items: center;
+  }
+  
+  .wc-image {
+    width: 210px;
+    height: 210px;
+    float: left;
+    padding: 5rem 2rem 0rem 7rem;
+  }
+  
+  .hello {
+    font-size: 32px;
+    padding: 8rem 0rem 1rem 2rem;
+  }
+
+.message-one {
+    font-size: 18px;
+    line-height: 28px;
+    padding: 0rem 8rem 1rem 2rem;
   }
   
   main {
