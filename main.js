@@ -11,7 +11,7 @@ const clickMenu = () => {
   
   if (state == 1) {
     
-    burgerMenu.src = "https://raw.githubusercontent.com/emdiel/main/img/active-menu.png";
+    burgerMenu.src = "img/active-menu.png";
     logo.style.display = "none";
     navigation.style.display = "flex"
     nav1.style.marginLeft = "1rem";
@@ -23,7 +23,7 @@ const clickMenu = () => {
     
   } else {
     
-    burgerMenu.src = "https://raw.githubusercontent.com/emdiel/main/img/menu.png";
+    burgerMenu.src = "img/menu.png";
     logo.style.display = "";
     navigation.style.display = "";
     nav1.style.marginLeft = "";
