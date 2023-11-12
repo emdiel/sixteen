@@ -8,7 +8,7 @@
 }
 
 body {
-  background: url('https://raw.githubusercontent.com/emdiel/main/img/wave-haikei.svg');
+  background: url('img/wave-haikei.svg');
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
@@ -68,7 +68,7 @@ nav {
 @media only screen and (min-width: 768px)and (max-width: 1023px) {
 
   body {
-    background: url('https://raw.githubusercontent.com/emdiel/main/img/wave-haikei-l.svg');
+    background: url('img/wave-haikei-l.svg');
   }
   
   nav {
@@ -97,6 +97,10 @@ nav {
 }
 
 @media only screen and (min-width: 1024px) {
+
+  body {
+    background: url('img/wave-haikei-l.svg');
+  }
 
    nav {
     padding: 2rem 3rem;
